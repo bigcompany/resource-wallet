@@ -1,0 +1,23 @@
+{
+  "name": "resource-wallet",
+  "version": "0.5.0",
+  "description": "for managing digital wallets",
+  "keywords": [
+    "wallet",
+    "coin",
+    "resource",
+    "mschema"
+  ],
+  "repository": {
+   "type": "git",
+   "url": "http://github.com/bigcompany/wallet.git"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "mschema-wallet": "0.5.x",
+    "resource": "0.5.x"
+  },
+  "scripts": {
+    "test": "tap test/"
+  }
+}
