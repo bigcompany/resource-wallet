@@ -19,5 +19,7 @@
   },
   "scripts": {
     "test": "tap test/"
-  }
+  },
+  "license": "MIT",
+  "author": "Marak Squires <support@marak.com>"
 }
