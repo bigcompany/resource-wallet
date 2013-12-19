@@ -7,9 +7,7 @@ var wallet = require('../'),
 tap.test('can persist wallet resource to memory', function (t) {
   // tests require a running couchdb to pass
   wallet.persist({
-    "type": "couch",
-    "username": "admin",
-    "password": "password"
+    "type": "memory"
   });
   t.end('wallet persisted to memory');
 });

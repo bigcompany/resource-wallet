@@ -3,7 +3,7 @@ var resource = require('resource'),
 
 wallet = resource.define('wallet', { 
   controller: require('./lib/'), 
-  schema: require('mschema-wallet')
+  schema: require('./wallet.mschema')
 }); 
 
 module['exports'] = wallet;
