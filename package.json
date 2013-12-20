@@ -10,7 +10,7 @@
   ],
   "repository": {
    "type": "git",
-   "url": "http://github.com/bigcompany/wallet.git"
+   "url": "http://github.com/bigcompany/resource-wallet.git"
   },
   "main": "./index.js",
   "dependencies": {
