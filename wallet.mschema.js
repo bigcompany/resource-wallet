@@ -4,7 +4,7 @@ var currency = {
     "required": true
   },
   "amount": {
-    "type": "number",
+    "type": "string",
     "required": true
   }
 };
