@@ -86,7 +86,7 @@ tap.test('get same wallet, verify deposit', function (t) {
 tap.test('can make withdrawl from first currency', function (t) {
   wallet.withdraw({ id: id, currency: "BTC" , "amount": "7" }, function (err, result){
     t.equal(err, null);
-    t.equal(result.amount, "7");
+    t.equal(result.transaction.amount, "7");
     t.end();
   })
 });
@@ -124,7 +124,7 @@ tap.test('can make withdrawl with fixed point decimal', function (t) {
   wallet.withdraw({ id: id, currency: "BTC" , "amount": "0.00000001" }, function (err, result){
     t.equal(err, null);
     console.log(err, result)
-    t.equal(result.amount, "0.00000001");
+    t.equal(result.transaction.amount, "0.00000001");
     t.end();
   })
 });
@@ -150,7 +150,7 @@ tap.test('can make deposit with doubles', function (t) {
 tap.test('can make withdrawl with doubles', function (t) {
   wallet.withdraw({ id: id, currency: "BTC" ,  "amount": "20123474.00000003" }, function (err, result){
     t.equal(err, null);
-    t.equal(result.amount, "20123474.00000003");
+    t.equal(result.transaction.amount, "20123474.00000003");
     t.end();
   });
 });
