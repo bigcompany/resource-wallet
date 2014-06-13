@@ -1,12 +1,12 @@
 {
   "name": "resource-wallet",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "for managing digital wallets",
   "keywords": [
     "wallet",
     "coin",
     "resource",
-    "mschema"
+    "bitcoin"
   ],
   "repository": {
    "type": "git",
